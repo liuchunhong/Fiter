@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70A84146454ECE28BC332B04 /* Pods_Fiter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EBEDF5BE12F6903090F754 /* Pods_Fiter.framework */; };
+		CF25E4C21F90AB62004DEBC4 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF25E4C11F90AB62004DEBC4 /* data.plist */; };
+		CF65AB9F1F6290860098DF92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65AB9E1F6290860098DF92 /* main.m */; };
+		CF65ABA21F6290860098DF92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABA11F6290860098DF92 /* AppDelegate.m */; };
+		CF65ABA51F6290860098DF92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABA41F6290860098DF92 /* ViewController.m */; };
+		CF65ABA81F6290860098DF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65ABA61F6290860098DF92 /* Main.storyboard */; };
+		CF65ABAA1F6290860098DF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF65ABA91F6290860098DF92 /* Assets.xcassets */; };
+		CF65ABAD1F6290860098DF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65ABAB1F6290860098DF92 /* LaunchScreen.storyboard */; };
+		CF65ABB81F6290860098DF92 /* FiterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABB71F6290860098DF92 /* FiterTests.m */; };
+		CF65ABC31F6290860098DF92 /* FiterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABC21F6290860098DF92 /* FiterUITests.m */; };
+		CF65ABDD1F62914F0098DF92 /* WTYMainScreeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABD21F62914F0098DF92 /* WTYMainScreeningViewController.m */; };
+		CF65ABDE1F62914F0098DF92 /* WTYCollectionViewTagFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABD41F62914F0098DF92 /* WTYCollectionViewTagFlowLayout.m */; };
+		CF65ABDF1F62914F0098DF92 /* WTYScreenCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABD61F62914F0098DF92 /* WTYScreenCollectionViewCell.m */; };
+		CF65ABE01F62914F0098DF92 /* WTYScreenHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABD81F62914F0098DF92 /* WTYScreenHeaderView.m */; };
+		CF65ABE11F62914F0098DF92 /* ChildScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABDA1F62914F0098DF92 /* ChildScreenModel.m */; };
+		CF65ABE21F62914F0098DF92 /* WTYScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF65ABDC1F62914F0098DF92 /* WTYScreenViewController.m */; };
+		CF8817AA1FAB01C7006C8B52 /* UIImage+resizableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8817A91FAB01C7006C8B52 /* UIImage+resizableImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF65ABB41F6290860098DF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF65AB921F6290860098DF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF65AB991F6290860098DF92;
+			remoteInfo = Fiter;
+		};
+		CF65ABBF1F6290860098DF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF65AB921F6290860098DF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF65AB991F6290860098DF92;
+			remoteInfo = Fiter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BB32A2B07822811718C8630 /* Pods-Fiter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fiter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fiter/Pods-Fiter.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED80B71B5DA60698DE59189 /* Pods-Fiter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fiter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fiter/Pods-Fiter.release.xcconfig"; sourceTree = "<group>"; };
+		CF25E4C11F90AB62004DEBC4 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		CF65AB9A1F6290860098DF92 /* Fiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF65AB9E1F6290860098DF92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF65ABA01F6290860098DF92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF65ABA11F6290860098DF92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF65ABA31F6290860098DF92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF65ABA41F6290860098DF92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF65ABA71F6290860098DF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF65ABA91F6290860098DF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF65ABAC1F6290860098DF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF65ABAE1F6290860098DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF65ABB31F6290860098DF92 /* FiterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF65ABB71F6290860098DF92 /* FiterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiterTests.m; sourceTree = "<group>"; };
+		CF65ABB91F6290860098DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF65ABBE1F6290860098DF92 /* FiterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF65ABC21F6290860098DF92 /* FiterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiterUITests.m; sourceTree = "<group>"; };
+		CF65ABC41F6290860098DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF65ABD11F62914F0098DF92 /* WTYMainScreeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYMainScreeningViewController.h; sourceTree = "<group>"; };
+		CF65ABD21F62914F0098DF92 /* WTYMainScreeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYMainScreeningViewController.m; sourceTree = "<group>"; };
+		CF65ABD31F62914F0098DF92 /* WTYCollectionViewTagFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYCollectionViewTagFlowLayout.h; sourceTree = "<group>"; };
+		CF65ABD41F62914F0098DF92 /* WTYCollectionViewTagFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYCollectionViewTagFlowLayout.m; sourceTree = "<group>"; };
+		CF65ABD51F62914F0098DF92 /* WTYScreenCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYScreenCollectionViewCell.h; sourceTree = "<group>"; };
+		CF65ABD61F62914F0098DF92 /* WTYScreenCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYScreenCollectionViewCell.m; sourceTree = "<group>"; };
+		CF65ABD71F62914F0098DF92 /* WTYScreenHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYScreenHeaderView.h; sourceTree = "<group>"; };
+		CF65ABD81F62914F0098DF92 /* WTYScreenHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYScreenHeaderView.m; sourceTree = "<group>"; };
+		CF65ABD91F62914F0098DF92 /* ChildScreenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildScreenModel.h; sourceTree = "<group>"; };
+		CF65ABDA1F62914F0098DF92 /* ChildScreenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildScreenModel.m; sourceTree = "<group>"; };
+		CF65ABDB1F62914F0098DF92 /* WTYScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYScreenViewController.h; sourceTree = "<group>"; };
+		CF65ABDC1F62914F0098DF92 /* WTYScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYScreenViewController.m; sourceTree = "<group>"; };
+		CF65ABE31F6292810098DF92 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		CF65ABE41F6292820098DF92 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CF8817A81FAB01C7006C8B52 /* UIImage+resizableImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+resizableImage.h"; sourceTree = "<group>"; };
+		CF8817A91FAB01C7006C8B52 /* UIImage+resizableImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+resizableImage.m"; sourceTree = "<group>"; };
+		F7EBEDF5BE12F6903090F754 /* Pods_Fiter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fiter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF65AB971F6290860098DF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A84146454ECE28BC332B04 /* Pods_Fiter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65ABB01F6290860098DF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65ABBB1F6290860098DF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5401802FE953A18BF6A1A4AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BB32A2B07822811718C8630 /* Pods-Fiter.debug.xcconfig */,
+				7ED80B71B5DA60698DE59189 /* Pods-Fiter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		635E8BC4683866D088CC0F91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7EBEDF5BE12F6903090F754 /* Pods_Fiter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF65AB911F6290860098DF92 = {
+			isa = PBXGroup;
+			children = (
+				CF65AB9C1F6290860098DF92 /* Fiter */,
+				CF65ABB61F6290860098DF92 /* FiterTests */,
+				CF65ABC11F6290860098DF92 /* FiterUITests */,
+				CF65AB9B1F6290860098DF92 /* Products */,
+				5401802FE953A18BF6A1A4AE /* Pods */,
+				635E8BC4683866D088CC0F91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF65AB9B1F6290860098DF92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF65AB9A1F6290860098DF92 /* Fiter.app */,
+				CF65ABB31F6290860098DF92 /* FiterTests.xctest */,
+				CF65ABBE1F6290860098DF92 /* FiterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF65AB9C1F6290860098DF92 /* Fiter */ = {
+			isa = PBXGroup;
+			children = (
+				CF65ABD01F62914F0098DF92 /* ChooseView */,
+				CF65ABA01F6290860098DF92 /* AppDelegate.h */,
+				CF65ABA11F6290860098DF92 /* AppDelegate.m */,
+				CF65ABA31F6290860098DF92 /* ViewController.h */,
+				CF65ABA41F6290860098DF92 /* ViewController.m */,
+				CF65ABA61F6290860098DF92 /* Main.storyboard */,
+				CF65ABA91F6290860098DF92 /* Assets.xcassets */,
+				CF65ABAB1F6290860098DF92 /* LaunchScreen.storyboard */,
+				CF65ABAE1F6290860098DF92 /* Info.plist */,
+				CF65AB9D1F6290860098DF92 /* Supporting Files */,
+			);
+			path = Fiter;
+			sourceTree = "<group>";
+		};
+		CF65AB9D1F6290860098DF92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF65AB9E1F6290860098DF92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF65ABB61F6290860098DF92 /* FiterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF65ABB71F6290860098DF92 /* FiterTests.m */,
+				CF65ABB91F6290860098DF92 /* Info.plist */,
+			);
+			path = FiterTests;
+			sourceTree = "<group>";
+		};
+		CF65ABC11F6290860098DF92 /* FiterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF65ABC21F6290860098DF92 /* FiterUITests.m */,
+				CF65ABC41F6290860098DF92 /* Info.plist */,
+			);
+			path = FiterUITests;
+			sourceTree = "<group>";
+		};
+		CF65ABD01F62914F0098DF92 /* ChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				CF8817A81FAB01C7006C8B52 /* UIImage+resizableImage.h */,
+				CF8817A91FAB01C7006C8B52 /* UIImage+resizableImage.m */,
+				CF65ABD11F62914F0098DF92 /* WTYMainScreeningViewController.h */,
+				CF65ABD21F62914F0098DF92 /* WTYMainScreeningViewController.m */,
+				CF65ABD31F62914F0098DF92 /* WTYCollectionViewTagFlowLayout.h */,
+				CF65ABD41F62914F0098DF92 /* WTYCollectionViewTagFlowLayout.m */,
+				CF65ABD51F62914F0098DF92 /* WTYScreenCollectionViewCell.h */,
+				CF65ABD61F62914F0098DF92 /* WTYScreenCollectionViewCell.m */,
+				CF65ABD71F62914F0098DF92 /* WTYScreenHeaderView.h */,
+				CF65ABD81F62914F0098DF92 /* WTYScreenHeaderView.m */,
+				CF65ABD91F62914F0098DF92 /* ChildScreenModel.h */,
+				CF65ABDA1F62914F0098DF92 /* ChildScreenModel.m */,
+				CF65ABDB1F62914F0098DF92 /* WTYScreenViewController.h */,
+				CF65ABDC1F62914F0098DF92 /* WTYScreenViewController.m */,
+				CF25E4C11F90AB62004DEBC4 /* data.plist */,
+			);
+			path = ChooseView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF65AB991F6290860098DF92 /* Fiter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF65ABC71F6290860098DF92 /* Build configuration list for PBXNativeTarget "Fiter" */;
+			buildPhases = (
+				DAD256835202D0ACA58E5D5F /* [CP] Check Pods Manifest.lock */,
+				CF65AB961F6290860098DF92 /* Sources */,
+				CF65AB971F6290860098DF92 /* Frameworks */,
+				CF65AB981F6290860098DF92 /* Resources */,
+				CA681DF415EA26E43EEA618B /* [CP] Embed Pods Frameworks */,
+				C242E24B3B5F4AE5BE35D092 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fiter;
+			productName = Fiter;
+			productReference = CF65AB9A1F6290860098DF92 /* Fiter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF65ABB21F6290860098DF92 /* FiterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF65ABCA1F6290860098DF92 /* Build configuration list for PBXNativeTarget "FiterTests" */;
+			buildPhases = (
+				CF65ABAF1F6290860098DF92 /* Sources */,
+				CF65ABB01F6290860098DF92 /* Frameworks */,
+				CF65ABB11F6290860098DF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF65ABB51F6290860098DF92 /* PBXTargetDependency */,
+			);
+			name = FiterTests;
+			productName = FiterTests;
+			productReference = CF65ABB31F6290860098DF92 /* FiterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF65ABBD1F6290860098DF92 /* FiterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF65ABCD1F6290860098DF92 /* Build configuration list for PBXNativeTarget "FiterUITests" */;
+			buildPhases = (
+				CF65ABBA1F6290860098DF92 /* Sources */,
+				CF65ABBB1F6290860098DF92 /* Frameworks */,
+				CF65ABBC1F6290860098DF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF65ABC01F6290860098DF92 /* PBXTargetDependency */,
+			);
+			name = FiterUITests;
+			productName = FiterUITests;
+			productReference = CF65ABBE1F6290860098DF92 /* FiterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF65AB921F6290860098DF92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘春红";
+				TargetAttributes = {
+					CF65AB991F6290860098DF92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HNC2563PH6;
+						ProvisioningStyle = Automatic;
+					};
+					CF65ABB21F6290860098DF92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HNC2563PH6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF65AB991F6290860098DF92;
+					};
+					CF65ABBD1F6290860098DF92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HNC2563PH6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF65AB991F6290860098DF92;
+					};
+				};
+			};
+			buildConfigurationList = CF65AB951F6290860098DF92 /* Build configuration list for PBXProject "Fiter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF65AB911F6290860098DF92;
+			productRefGroup = CF65AB9B1F6290860098DF92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF65AB991F6290860098DF92 /* Fiter */,
+				CF65ABB21F6290860098DF92 /* FiterTests */,
+				CF65ABBD1F6290860098DF92 /* FiterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF65AB981F6290860098DF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF65ABAD1F6290860098DF92 /* LaunchScreen.storyboard in Resources */,
+				CF65ABAA1F6290860098DF92 /* Assets.xcassets in Resources */,
+				CF25E4C21F90AB62004DEBC4 /* data.plist in Resources */,
+				CF65ABA81F6290860098DF92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65ABB11F6290860098DF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65ABBC1F6290860098DF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C242E24B3B5F4AE5BE35D092 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fiter/Pods-Fiter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA681DF415EA26E43EEA618B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fiter/Pods-Fiter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAD256835202D0ACA58E5D5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF65AB961F6290860098DF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF65ABE21F62914F0098DF92 /* WTYScreenViewController.m in Sources */,
+				CF65ABE11F62914F0098DF92 /* ChildScreenModel.m in Sources */,
+				CF65ABDE1F62914F0098DF92 /* WTYCollectionViewTagFlowLayout.m in Sources */,
+				CF65ABDF1F62914F0098DF92 /* WTYScreenCollectionViewCell.m in Sources */,
+				CF65ABA51F6290860098DF92 /* ViewController.m in Sources */,
+				CF65ABE01F62914F0098DF92 /* WTYScreenHeaderView.m in Sources */,
+				CF65ABA21F6290860098DF92 /* AppDelegate.m in Sources */,
+				CF8817AA1FAB01C7006C8B52 /* UIImage+resizableImage.m in Sources */,
+				CF65ABDD1F62914F0098DF92 /* WTYMainScreeningViewController.m in Sources */,
+				CF65AB9F1F6290860098DF92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65ABAF1F6290860098DF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF65ABB81F6290860098DF92 /* FiterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF65ABBA1F6290860098DF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF65ABC31F6290860098DF92 /* FiterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF65ABB51F6290860098DF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF65AB991F6290860098DF92 /* Fiter */;
+			targetProxy = CF65ABB41F6290860098DF92 /* PBXContainerItemProxy */;
+		};
+		CF65ABC01F6290860098DF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF65AB991F6290860098DF92 /* Fiter */;
+			targetProxy = CF65ABBF1F6290860098DF92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF65ABA61F6290860098DF92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF65ABA71F6290860098DF92 /* Base */,
+				CF65ABE31F6292810098DF92 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF65ABAB1F6290860098DF92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF65ABAC1F6290860098DF92 /* Base */,
+				CF65ABE41F6292820098DF92 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF65ABC51F6290860098DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF65ABC61F6290860098DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF65ABC81F6290860098DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB32A2B07822811718C8630 /* Pods-Fiter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HNC2563PH6;
+				INFOPLIST_FILE = Fiter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuchunhong.Fiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF65ABC91F6290860098DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED80B71B5DA60698DE59189 /* Pods-Fiter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HNC2563PH6;
+				INFOPLIST_FILE = Fiter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuchunhong.Fiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF65ABCB1F6290860098DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HNC2563PH6;
+				INFOPLIST_FILE = FiterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuchunhong.FiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiter.app/Fiter";
+			};
+			name = Debug;
+		};
+		CF65ABCC1F6290860098DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HNC2563PH6;
+				INFOPLIST_FILE = FiterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuchunhong.FiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiter.app/Fiter";
+			};
+			name = Release;
+		};
+		CF65ABCE1F6290860098DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HNC2563PH6;
+				INFOPLIST_FILE = FiterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuchunhong.FiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fiter;
+			};
+			name = Debug;
+		};
+		CF65ABCF1F6290860098DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HNC2563PH6;
+				INFOPLIST_FILE = FiterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuchunhong.FiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fiter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF65AB951F6290860098DF92 /* Build configuration list for PBXProject "Fiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65ABC51F6290860098DF92 /* Debug */,
+				CF65ABC61F6290860098DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF65ABC71F6290860098DF92 /* Build configuration list for PBXNativeTarget "Fiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65ABC81F6290860098DF92 /* Debug */,
+				CF65ABC91F6290860098DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF65ABCA1F6290860098DF92 /* Build configuration list for PBXNativeTarget "FiterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65ABCB1F6290860098DF92 /* Debug */,
+				CF65ABCC1F6290860098DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF65ABCD1F6290860098DF92 /* Build configuration list for PBXNativeTarget "FiterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF65ABCE1F6290860098DF92 /* Debug */,
+				CF65ABCF1F6290860098DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF65AB921F6290860098DF92 /* Project object */;
+}

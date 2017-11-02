@@ -1,0 +1,207 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JSONAPI.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONHTTPClient.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONKeyMapper.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONModel+networking.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONModel-Swift.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Headers/JSONModel-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONModel-umbrella.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Target Support Files/JSONModel/JSONModel-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONModel.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONModelClassProperty.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONModelError.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONModelLib.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/JSONModel/JSONModel/JSONModelLib.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSONValueTransformer.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphoneos/JSONModel/JSONModel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Build/Intermediates/Pods.build/Debug-iphoneos/JSONModel.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphoneos/Masonry/Masonry.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MASCompositeConstraint.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/MASCompositeConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraint+Private.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/MASConstraint+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraint.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/MASConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASConstraintMaker.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/MASConstraintMaker.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASLayoutConstraint.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/MASLayoutConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASUtilities.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/MASUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASViewAttribute.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/MASViewAttribute.h"
+        },
+        {
+          'type': 'file',
+          'name': "MASViewConstraint.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/MASViewConstraint.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry-Swift.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphoneos/Masonry/Masonry.framework/Headers/Masonry-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry-umbrella.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Target Support Files/Masonry/Masonry-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Masonry.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/Masonry.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+MASAdditions.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/NSArray+MASAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+MASShorthandAdditions.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/NSArray+MASShorthandAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSLayoutConstraint+MASDebugAdditions.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "View+MASAdditions.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/View+MASAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "View+MASShorthandAdditions.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/View+MASShorthandAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "ViewController+MASAdditions.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Masonry/Masonry/ViewController+MASAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphoneos/Masonry/Masonry.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Build/Intermediates/Pods.build/Debug-iphoneos/Masonry.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphoneos/Pods_Fiter.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Fiter-umbrella.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Pods/Target Support Files/Pods-Fiter/Pods-Fiter-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Fiter-Swift.h",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphoneos/Pods_Fiter.framework/Headers/Pods_Fiter-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphoneos/Pods_Fiter.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/liuchunhong/Documents/Github/Fiter/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Fiter.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

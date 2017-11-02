@@ -1,0 +1,15 @@
+PODS:
+  - JSONModel (1.7.0)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - JSONModel
+  - Masonry
+
+SPEC CHECKSUMS:
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: e8364dbdf108099b4c81efa8d33ba1a6a95c8b87
+
+COCOAPODS: 1.1.1

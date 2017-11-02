@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/liuchunhong/Documents/Github/Fiter/Fiter/ChooseView/WTYScreenViewController.m \
+  /Users/liuchunhong/Documents/Github/Fiter/Fiter/ChooseView/WTYScreenViewController.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Fiter/ChooseView/WTYScreenCollectionViewCell.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Fiter/ChooseView/WTYScreenModel.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Modules/module.modulemap \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONAPI.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONModel+networking.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONHTTPClient.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONModelLib.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONModelClassProperty.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONKeyMapper.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONValueTransformer.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONModelError.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONModel.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework/Headers/JSONModel-umbrella.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Fiter/ChooseView/WTYScreenHeaderView.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Fiter/ChooseView/WTYCollectionViewTagFlowLayout.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules/module.modulemap \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASShorthandAdditions.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASAdditions.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/ViewController+MASAdditions.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASShorthandAdditions.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewAttribute.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASAdditions.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraintMaker.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint+Private.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASUtilities.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h \
+  /Users/liuchunhong/Documents/Github/Fiter/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h
